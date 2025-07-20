@@ -1,0 +1,1281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digimon Encounter Data</title>
+    <link rel="stylesheet" href="digimon_styles.css"
+          href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Digimon Encounter Data</h1>
+    <div class="navbar">
+    <a href="digimon_evolution_viewer_linked.html">Digivolution Veiwer</a>
+    <a href="recruitable_digimon.html">Recruitable Digimon</a>
+</div>
+    <table class="dataframe display"><thead><tr style="text-align: right;">
+<th>Area</th>
+<th>Time</th>
+<th>Digimon</th>
+<th>Technique</th>
+<th>Can Be Learned By</th>
+</tr></thead><tbody><tr>
+<td>File City</td>
+<td>Day (Digimon Bridge area, not always there)</td>
+<td>Aruramon</td>
+<td>Poison Powder</td>
+<td>Kunemon,Palmon,Kabuterimon,Ninjamon,Seadramon,Shellmon,Vegiemon,Whamon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>File City</td>
+<td>Night</td>
+<td>Tsukaimon</td>
+<td>Sonic Jab</td>
+<td>Agumon, Gabumon, Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>File City</td>
+<td>Night</td>
+<td>Tsukaimon</td>
+<td>Dynamite Kick</td>
+<td>Elecmon,Gabumon,Patamon,Angemon,Centarumon,Devimon,Drimogemon,Greymon,Kokatorimon,Leomon,Meramon,Mojyamon,Nanimon,Ninjamon,Ogremon,Tyrannomon,Unimon,Etemon,Mamemon,Megadramon,MetalMamemon,Monzaemon,SkullGreyMon</td>
+</tr><tr>
+<td>File City</td>
+<td>Night</td>
+<td>Tsukaimon</td>
+<td>Static Elect</td>
+<td>Betamon,Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Kokatorimon,Leomon,Unimon,Andromon,Monzaemon,Phoenixmon,</td>
+</tr><tr>
+<td>File City</td>
+<td>Night</td>
+<td>Tsukaimon</td>
+<td>Wind cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>File City</td>
+<td>Boss</td>
+<td>Greymon</td>
+<td>Red Inferno</td>
+<td>Agumon,Birdramon,Centarumon,Greymon,Kabuterimon,Meramon,Monochromon,Ogremon,Tyrannomon,Digitamamon,HerculesKabuterimon,Phoenixmon</td>
+</tr><tr>
+<td>File City</td>
+<td>Boss</td>
+<td>Greymon</td>
+<td>Spit Fire</td>
+<td>Agumon,Biyomon,Airdramon,Birdramon,Centarumon,Garurumon,Greymon,Kabuterimon,Meramon,Monochromon,Ogremon,Seadramon,Tyrannomon,Digitamamon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Modoki Betamon</td>
+<td>Static Elect</td>
+<td>Betamon,Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Kokatorimon,Leomon,Unimon,Andromon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Modoki Betamon</td>
+<td>Electric Cloud</td>
+<td>Betamon,Biyomon,Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Kokatorimon,Unimon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Modoki Betamon</td>
+<td>Water Blit (rare)</td>
+<td>Betamon,Palmon,Penguinmon,Coelamon,Frigimon,Mojyamon,Seadramon,Shellmon,Vegiemon,Whamon,MegaSeadramon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Red Vegiemon</td>
+<td>Poison Claw</td>
+<td>Kunemon,Palmon,Penguinmon,Coelamon,Kabuterimon,Kuwagamon,Ogremon,Vegiemon,HerculesKabuterimon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Red Vegiemon</td>
+<td>Poison Powder</td>
+<td>Kunemon,Palmon,Kabuterimon,Ninjamon,Seadramon,Shellmon,Vegiemon,Whamon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Red Vegiemon</td>
+<td>Danger Sting</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Aruramon</td>
+<td>Tear Drop</td>
+<td>Palmon,Coelamon,Frigimon,Seadramon,Shellmon,Whamon,Digitamamon,MegaSeadramon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Aruramon</td>
+<td>Poison Powder</td>
+<td>Kunemon,Palmon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Shellmon,Vegiemon,Whamon,HerculesKabutarimon,Pixiemon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Aruramon</td>
+<td>Poison Claw</td>
+<td>Kunemon,Palmon,Coelamon,Kabuterimon,Kuwagamon,Ogremon,Vegiemon,HerculesKabutarimon,Piximon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Goburimon</td>
+<td>Sonic Jab</td>
+<td>Agumon, Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Goburimon</td>
+<td>Magma Bomb</td>
+<td>Augumon,Birdimon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Day</td>
+<td>Goburimon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Night</td>
+<td>Dokunemon</td>
+<td>Poison Claw</td>
+<td>Kunemon,Palmon,Penguinmom,Ceolamon,Kabuterimon,Kuwagamon,Ogremon,Vegiemon,HerculesKabuterimon,Pixiemon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Night</td>
+<td>Dokunemon</td>
+<td>Danger Sting</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Night</td>
+<td>Goburimon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Night</td>
+<td>Goburimon</td>
+<td>Magma Bomb</td>
+<td>Agumon,Birdramon,Centarumon,Garurumon,Greymon,Mereamon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Night</td>
+<td>Goburimon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Boss</td>
+<td>Agumon</td>
+<td>Spit Fire</td>
+<td>Agumon,Biyomon,Airdramon,Birdramon,Centarumon,Garurumon,Greymon,Kabuterimon,Meramon,Monochromon,Ogremon,Seadramon,Tyrannomon,Digitamamon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Boss</td>
+<td>Agumon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Boss</td>
+<td>Kunemon</td>
+<td>Static Elect</td>
+<td>Betamon,Elecmon,Kunemon,Airdramon,Angemon,bakemon,Kokatorimon,Leomon,Unimon,Andromon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Boss</td>
+<td>Kunemon</td>
+<td>Electric Cloud</td>
+<td>Betamon,Biyomon,Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Kokatorimon,Unimon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Boss</td>
+<td>Palmon</td>
+<td>Poison Powder</td>
+<td>Kunemon,Palmon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Shellmon,Vegiemon,Whamon,HerculesKabutarimon,Pixiemon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Boss</td>
+<td>Palmon</td>
+<td>Tear Drop</td>
+<td>Palmon,Coelamon,Frigimon,Seadramon,Shellmon,Whamon,Digitamamon,MegaSeadramon</td>
+</tr><tr>
+<td>Native Forest</td>
+<td>Boss</td>
+<td>Palmon</td>
+<td>Poison Claw</td>
+<td>Kunemon,Palmon,Penguinmon,Coelamon,Kabuterimon,Kuwagamon,Ogremon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Aruramon</td>
+<td>Tear Drop</td>
+<td>Palmon,Coelamon,Frigimon,Seadramon,Shellmon,Whamon,Digitamamon,MegaSeadramon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Aruramon</td>
+<td>Poison Claw</td>
+<td>Kunemon,Palmon,Penguinmon,Coelamon,Kabuterimon,Kuwagamon,Ogremon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Aruramon</td>
+<td>Poison Powder</td>
+<td>Kunemon,Palmon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Shellmon,Vegiemon,Whamon,HerculesKabutarimon,Pixiemon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Muchomon</td>
+<td>Dynamite Kick</td>
+<td>Elecmon,Gabumon,Patamon,Angemon,Centarumon,Devimon,Drimogemon,Greymon,Kokatorimon,Leomon,Meramon,Mojyamon,Nanimon,Ninjamon,Ogremon,Tyrannomon,Unimon,Etemon,Mamemon,Megadramon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Muchomon</td>
+<td>Ice Needle</td>
+<td>Betamon,Penguinmon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Muchomon</td>
+<td>Poison Claw</td>
+<td>Kunemon,Palmon,Penguinmon,Coelamon,Kabuterimon,Kuwagamon,Ogremon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Static Elect</td>
+<td>Betamon,Elecmon,Kunemon,Airdramon,Angemon,bakemon,Kokatorimon,Leomon,Unimon,Andromon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Electric Cloud</td>
+<td>Betamon,Biyomon,Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Kokatorimon,Unimon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Danger Sting</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Red Vegiemon</td>
+<td>Poison Claw</td>
+<td>Kunemon,Palmon,Penguinmon,Coelamon,Kabuterimon,Kuwagamon,Ogremon,Vegiemon,HerculesKabuterimon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Red Vegiemon</td>
+<td>Poison Powder</td>
+<td>Kunemon,Palmon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Shellmon,Vegiemon,Whamon,HerculesKabutarimon,Pixiemon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Day</td>
+<td>Red Vegiemon</td>
+<td>Danger Sting</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Night</td>
+<td>J-Moyjamon</td>
+<td>Sonic Jab</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Night</td>
+<td>J-Moyjamon</td>
+<td>Dynamite Kick</td>
+<td>Elecmon,Gabumon,Patamon,Angemon,Centarumon,Devimon,Drimogemon,Greymon,Kokatorimon,Leomon,Meramon,Mojyamon,Nanimon,Ninjamon,Ogremon,Tyrannomon,Unimon,Etemon,Mamemon,Megadramon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Night</td>
+<td>J-Moyjamon</td>
+<td>Water Blit</td>
+<td>Betamon,Palmon,Penguinmon,Coelamon,Frigimon,Mojyamon,Seadramon,Shellmon,Vegiemon,Whamon,MegaSeadramon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Night</td>
+<td>Tsukaimon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Night</td>
+<td>Tsukaimon</td>
+<td>Static Elect</td>
+<td>Betamon,Elecmon,Kunemon,Airdramon,Angemon,bakemon,Kokatorimon,Leomon,Unimon,Andromon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Night</td>
+<td>Tsukaimon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Night</td>
+<td>Tsukaimon</td>
+<td>Dynamite Kick</td>
+<td>Elecmon,Gabumon,Patamon,Angemon,Centarumon,Devimon,Drimogemon,Greymon,Kokatorimon,Leomon,Meramon,Mojyamon,Nanimon,Ninjamon,Ogremon,Tyrannomon,Unimon,Etemon,Mamemon,Megadramon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Boss</td>
+<td>Piximon</td>
+<td>Confused Storm</td>
+<td>Biyomon,Patamon,Airdramon,Angemon,Kokatorimon,Unimon,Digitamamon,MegaSeadramon,Monzaemon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Boss</td>
+<td>Piximon</td>
+<td>Megalo Spark</td>
+<td>Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Greymon,Kokatorimon,Leomon,Unimon,Andromon,Digitamamon,Etemon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Tropical Jungle</td>
+<td>Boss</td>
+<td>Piximon</td>
+<td>Bug</td>
+<td>HerculesKabuterimon,Piximon,Vademon</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Danger Sting</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Day</td>
+<td>Muchomon</td>
+<td>Dynamite Kick</td>
+<td>Elecmon,Gabumon,Patamon,Angemon,Centarumon,Devimon,Drimogemon,Greymon,Kokatorimon,Leomon,Meramon,Mojyamon,Nanimon,Ninjamon,Ogremon,Tyrannomon,Unimon,Etemon,Mamemon,Megadramon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Day</td>
+<td>Muchomon</td>
+<td>Poison Claw</td>
+<td>Kunemon,Palmon,Penguinmon,Coelamon,Kabuterimon,Kuwagamon,Ogremon,Vegiemon,HerculesKabuterimon</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Day</td>
+<td>Muchomon</td>
+<td>Ice Needle</td>
+<td>Betamon,Penguinmon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Day</td>
+<td>Modoki Betamon</td>
+<td>Static Elect</td>
+<td>Betamon,Elecmon,Kunemon,Airdramon,Angemon,bakemon,Kokatorimon,Leomon,Unimon,Andromon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Day</td>
+<td>Modoki Betamon</td>
+<td>Electric Cloud</td>
+<td>Betamon,Biyomon,Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Kokatorimon,Unimon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Day</td>
+<td>Modoki Betamon</td>
+<td>Danger Sting</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Night</td>
+<td>J-Moyjamon</td>
+<td>Dynamite Kick</td>
+<td>Elecmon,Gabumon,Patamon,Angemon,Centarumon,Devimon,Drimogemon,Greymon,Kokatorimon,Leomon,Meramon,Mojyamon,Nanimon,Ninjamon,Ogremon,Tyrannomon,Unimon,Etemon,Mamemon,Megadramon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Night</td>
+<td>J-Moyjamon</td>
+<td>Water Blit</td>
+<td>Betamon,Palmon,Penguinmon,Coelamon,Frigimon,Mojyamon,Seadramon,Shellmon,Vegiemon,Whamon,MegaSeadramon</td>
+</tr><tr>
+<td>Mangrove Region</td>
+<td>Night</td>
+<td>J-Moyjamon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Day</td>
+<td>Vermilimon</td>
+<td>Spit Fire</td>
+<td>Agumon,Biyomon,Airdramon,Birdramon,Centarumon,Garurumon,Greymon,Kabuterimon,Meramon,Monochromon,Ogremon,Seadramon,Tyrannomon,Digitamamon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Day</td>
+<td>Vermilimon</td>
+<td>Magma Bomb</td>
+<td>Augumon,Birdimon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Day</td>
+<td>Vermilimon</td>
+<td>Heat Laser</td>
+<td>Agumon,Biyomon,Gabumon,Airdramon,Birdramon,Centarumon,Greymon,Meramon,Monochromon,Digitamamon,MetalGreymon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Danger Sting</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Night</td>
+<td>Vermilimon</td>
+<td>Spit Fire</td>
+<td>Agumon,Biyomon,Airdramon,Birdramon,Centarumon,Garurumon,Greymon,Kabuterimon,Meramon,Monochromon,Ogremon,Seadramon,Tyrannomon,Digitamamon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Night</td>
+<td>Vermilimon</td>
+<td>Magma Bomb</td>
+<td>Augumon,Birdimon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Night</td>
+<td>Vermilimon</td>
+<td>Heat Laser</td>
+<td>Agumon,Biyomon,Gabumon,Airdramon,Birdramon,Centarumon,Greymon,Meramon,Monochromon,Digitamamon,MetalGreymon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Night</td>
+<td>Yanmon</td>
+<td>Danger Sting</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Night</td>
+<td>Yanmon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Boss</td>
+<td>Tyrannomon</td>
+<td>Red inferno</td>
+<td>Agumon,Birdramon,Centarumon,Greymon,Kabuterimon,Meramon,Monochromon,Ogremon,Tyrannomon,Digitamamon,HerculesKabuterimon,Phoenixmon</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Boss</td>
+<td>Tyrannomon</td>
+<td>Fire tower</td>
+<td>Agumon,Gabumon,Birdramon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Digitamamon,</td>
+</tr><tr>
+<td>Ancient Dino Region</td>
+<td>Boss</td>
+<td>Tyrannomon</td>
+<td>Magma Bomb</td>
+<td>Augumon,Birdimon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Speedy Time Zone</td>
+<td>Day</td>
+<td>Gotsumon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Speedy Time Zone</td>
+<td>Day</td>
+<td>Gotsumon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Speedy Time Zone</td>
+<td>Day</td>
+<td>Gotsumon</td>
+<td>Buster Dive</td>
+<td>Patamon,Drimogemon,Garurumon,Leomon,Ogremon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Speedy Time Zone</td>
+<td>Day</td>
+<td>Saberdramon</td>
+<td>Spinning Shot</td>
+<td>Biyomon,Patamon,Airdramon,Angemon,Kokatorimon,Unimon,Digitamamon,Etemon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Speedy Time Zone</td>
+<td>Day</td>
+<td>Saberdramon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Speedy Time Zone</td>
+<td>Day</td>
+<td>Saberdramon</td>
+<td>Prominence Beam</td>
+<td>Airdramon,Birdamon,Centarumon,Greymon,Kabuterimon,Meramon,Monochromon,Tyrannomon,Digitamamon,HerculesKabuterimon,Phoenixmon</td>
+</tr><tr>
+<td>Speedy Time Zone</td>
+<td>Night</td>
+<td>Gotsumon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Speedy Time Zone</td>
+<td>Night</td>
+<td>Gotsumon</td>
+<td>Buster Dive</td>
+<td>Patamon,Drimogemon,Garurumon,Leomon,Ogremon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Speedy Time Zone</td>
+<td>Night</td>
+<td>Gotsumon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Speedy Time Zone</td>
+<td>Boss</td>
+<td>Meteormon</td>
+<td>Meltdown</td>
+<td>Birdramon,Centarumon,Greymon,Monochromon,Digitamamon,MetalGreymon,Phoenixmon</td>
+</tr><tr>
+<td>Overdell</td>
+<td>Day</td>
+<td>Soulmon</td>
+<td>Electric Cloud</td>
+<td>Betamon,Biyomon,Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Kokatorimon,Unimon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Overdell</td>
+<td>Day</td>
+<td>Soulmon</td>
+<td>Static Elect</td>
+<td>Betamon,Elecmon,Kunemon,Airdramon,Angemon,bakemon,Kokatorimon,Leomon,Unimon,Andromon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Overdell</td>
+<td>Day</td>
+<td>Soulmon</td>
+<td>Megalo Spark</td>
+<td>Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Greymon,Kokatorimon,Leomon,Unimon,Andromon,Digitamamon,Etemon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Overdell</td>
+<td>Night</td>
+<td>Soulmon</td>
+<td>Electric Cloud</td>
+<td>Betamon,Biyomon,Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Kokatorimon,Unimon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Overdell</td>
+<td>Night</td>
+<td>Soulmon</td>
+<td>Static Elect</td>
+<td>Betamon,Elecmon,Kunemon,Airdramon,Angemon,bakemon,Kokatorimon,Leomon,Unimon,Andromon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Overdell</td>
+<td>Night</td>
+<td>Soulmon</td>
+<td>Megalo Spark</td>
+<td>Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Greymon,Kokatorimon,Leomon,Unimon,Andromon,Digitamamon,Etemon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Day/Night</td>
+<td>Soulmon</td>
+<td>Thunder Justice</td>
+<td>Bakemon,Devimon,Digitamamon,Etemon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Day/Night</td>
+<td>Soulmon</td>
+<td>Megalo Spark</td>
+<td>Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Greymon,Kokatorimon,Leomon,Unimon,Andromon,Digitamamon,Etemon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Day/Night</td>
+<td>Soulmon</td>
+<td>Electric Cloud</td>
+<td>Betamon,Biyomon,Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Kokatorimon,Unimon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Day/Night</td>
+<td>Darkrizamon</td>
+<td>Heat Laser</td>
+<td>Augumon,Biyomon,Gabumon,Airdramon,Birdramon,Centarumon,Greymon,Meramon,Monochromon,Digitamamon,MetalGreymon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Day/Night</td>
+<td>Darkrizamon</td>
+<td>Magma Bomb</td>
+<td>Augumon,Birdimon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Boss</td>
+<td>Tekkomon</td>
+<td>Buster Dive</td>
+<td>Patamon,Drimogemon,Garurumon,Leomon,Ogremon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Boss</td>
+<td>Tekkomon</td>
+<td>Full Potential</td>
+<td>Andromon,Mamemon,Megadramon,MetalGreymon,Vademon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Boss</td>
+<td>Tekkomon</td>
+<td>Reverse Program</td>
+<td>Andromon,Mamemon,Megadramon,MetalGreymon,Vademon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Boss</td>
+<td>Skull Greymon</td>
+<td>War Cry</td>
+<td>Gabumon,Patamon,Angemon,Devimon,Drimogemon,Garurumon,Kokatorimon,Leomon,Meramon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Boss</td>
+<td>Skull Greymon</td>
+<td>Dynamite Kick</td>
+<td>Elecmon,Gabumon,Patamon,Angemon,Centarumon,Devimon,Drimogemon,Greymon,Kokatorimon,Leomon,Meramon,Mojyamon,Nanimon,Ninjamon,Ogremon,Tyrannomon,Unimon,Etemon,Mamemon,Megadramon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Grey Lord's Manor</td>
+<td>Boss</td>
+<td>Skull Greymon</td>
+<td>Buster Dive</td>
+<td>Patamon,Drimogemon,Garurumon,Leomon,Ogremon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Day</td>
+<td>Gotsumon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Day</td>
+<td>Gotsumon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Day</td>
+<td>Gotsumon</td>
+<td>Buster Dive</td>
+<td>Patamon,Drimogemon,Garurumon,Leomon,Ogremon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Day</td>
+<td>Weedmon</td>
+<td>Mass Morph</td>
+<td>Kunemon,Palmon,Kabuterimon,Kuwagamon,Mojyamon,Monochromon,Ninjamon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Day</td>
+<td>Weedmon</td>
+<td>Green Trap</td>
+<td>Drimogemon,Kabuterimon,Kuwagamon,Mojyamon,Monochromon,Vegiemon,HerculesKabuterimon,Piximon,Vademon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Day</td>
+<td>Weedmon</td>
+<td>Danger Sting</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Day</td>
+<td>Sand Yanmon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Day</td>
+<td>Sand Yanmon</td>
+<td>Spinning Shot</td>
+<td>Biyomon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Devimon,Greymon,Kokatorimon,Kuwagamon,Unimon,Digitamamon,Etemon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Day</td>
+<td>Sand Yanmon</td>
+<td>Hurricane</td>
+<td>Biyomon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Unimon,Digitamamon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Night</td>
+<td>Gotsumon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Night</td>
+<td>Gotsumon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Night</td>
+<td>Gotsumon</td>
+<td>Buster Dive</td>
+<td>Patamon,Drimogemon,Garurumon,Leomon,Ogremon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Boss</td>
+<td>Birdramon</td>
+<td>Prominence Beam</td>
+<td>Airdramon,Birdamon,Centarumon,Greymon,Kabuterimon,Meramon,Monochromon,Tyrannomon,Digitamamon,HerculesKabuterimon,Phoenixmon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Boss</td>
+<td>Ogremon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Boss</td>
+<td>Ogremon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Boss</td>
+<td>Ogremon</td>
+<td>Tremar</td>
+<td>Gabumon,Drimogemon,Kokatorimon,Leomon,Monochromon,Ogremon,Tyrannomon,Andromon,Etemon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Great Canyon</td>
+<td>Boss</td>
+<td>Ogremon</td>
+<td>Magama Bomb</td>
+<td>Augumon,Birdimon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Ogre Fortress</td>
+<td>Boss</td>
+<td>Gabumon</td>
+<td>War Cry</td>
+<td>Gabumon,Patamon,Angemon,Devimon,Drimogemon,Garurumon,Kokatorimon,Leomon,Meramon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Ogre Fortress</td>
+<td>Boss</td>
+<td>Gabumon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Ogre Fortress</td>
+<td>Boss</td>
+<td>Agumon</td>
+<td>Fire Tower</td>
+<td>Agumon,Gabumon,Birdramon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Digitamamon,</td>
+</tr><tr>
+<td>Ogre Fortress</td>
+<td>Boss</td>
+<td>Agumon</td>
+<td>Spit Fire</td>
+<td>Agumon,Biyomon,Airdramon,Birdramon,Centarumon,Garurumon,Greymon,Kabuterimon,Meramon,Monochromon,Ogremon,Seadramon,Tyrannomon,Digitamamon</td>
+</tr><tr>
+<td>Ogre Fortress</td>
+<td>Boss</td>
+<td>Agumon</td>
+<td>Muscle Charge</td>
+<td>Agumon,Elecmon,Centarumon,Devimon,Drimogemon,Frigimon,Greymon,Kuwagamon,Leomon,Tyrannomon,Etemon,HerculesKabuterimon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Ogre Fortress</td>
+<td>Boss</td>
+<td>Ogremon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Ogre Fortress</td>
+<td>Boss</td>
+<td>Ogremon</td>
+<td>Tremar</td>
+<td>Gabumon,Drimogemon,Kokatorimon,Leomon,Monochromon,Ogremon,Tyrannomon,Andromon,Etemon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Ogre Fortress</td>
+<td>Boss</td>
+<td>Ogremon</td>
+<td>Magma Bomb</td>
+<td>Augumon,Birdimon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Day</td>
+<td>Snow Agumon</td>
+<td>Ice Needle</td>
+<td>Betamon,Penguinmon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Day</td>
+<td>Snow Agumon</td>
+<td>Muscle Charge</td>
+<td>Agumon,Elecmon,Centarumon,Devimon,Drimogemon,Frigimon,Greymon,Kuwagamon,Leomon,Tyrannomon,Etemon,HerculesKabuterimon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Day</td>
+<td>Snow Agumon</td>
+<td>Winter Blast</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,Megadramon,MegaSeadramonSkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Day</td>
+<td>Snow Goburimon</td>
+<td>Ice Needle</td>
+<td>Betamon,Penguinmon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Day</td>
+<td>Snow Goburimon</td>
+<td>Winter Blast</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,Megadramon,MegaSeadramonSkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Day</td>
+<td>Snow Goburimon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Day</td>
+<td>Hyogamon</td>
+<td>Giga Freeze</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Devimon,Frigimon,Garurumon,Seadramon,Whamon,Megadramon,MegaSeadramon,SkullGrymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Day</td>
+<td>Hyogamon</td>
+<td>Buster Dive</td>
+<td>Patamon,Drimogemon,Garurumon,Leomon,Ogremon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Day</td>
+<td>Hyogamon</td>
+<td>Winter Blast</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,Megadramon,MegaSeadramonSkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Night</td>
+<td>Ice Devimon</td>
+<td>Ice Statue</td>
+<td>Coelamon,Devimon,Frifimon,Garurumon,Shellmon,Whamon,Megadramon,MegaSeadramon,SkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Night</td>
+<td>Ice Devimon</td>
+<td>War Cry</td>
+<td>Gabumon,Patamon,Angemon,Devimon,Drimogemon,Garurumon,Kokatorimon,Leomon,Meramon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Night</td>
+<td>Ice Devimon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Night</td>
+<td>Ice Devimon</td>
+<td>Ice Needle</td>
+<td>Betamon,Penguinmon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Night</td>
+<td>Snow Goburimon</td>
+<td>Ice Needle</td>
+<td>Betamon,Penguinmon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Night</td>
+<td>Snow Goburimon</td>
+<td>Winter Blast</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,Megadramon,MegaSeadramonSkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Night</td>
+<td>Snow Goburimon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Night</td>
+<td>Hyogamon</td>
+<td>Giga Freeze</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Devimon,Frigimon,Garurumon,Seadramon,Whamon,Megadramon,MegaSeadramon,SkullGrymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Night</td>
+<td>Hyogamon</td>
+<td>Buster Dive</td>
+<td>Patamon,Drimogemon,Garurumon,Leomon,Ogremon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Night</td>
+<td>Hyogamon</td>
+<td>Winter Blast</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,Megadramon,MegaSeadramonSkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Boss</td>
+<td>Garurumon</td>
+<td>Giga Freeze</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Devimon,Frigimon,Garurumon,Seadramon,Whamon,Megadramon,MegaSeadramon,SkullGrymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Boss</td>
+<td>Garurumon</td>
+<td>Ice Statue</td>
+<td>Coelamon,Devimon,Frifimon,Garurumon,Shellmon,Whamon,Megadramon,MegaSeadramon,SkullGreymon</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Boss</td>
+<td>Garurumon</td>
+<td>Aqua Magic</td>
+<td>Betamon,Palmon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Vegiemon,Whamon,Digitamamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Freezeland</td>
+<td>Boss</td>
+<td>Garurumon</td>
+<td>Winter Blast</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,Megadramon,MegaSeadramonSkullGreymon</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Ice Gotsumon</td>
+<td>Ice Needle</td>
+<td>Betamon,Penguinmon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Ice Gotsumon</td>
+<td>Winter Blast</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,Megadramon,MegaSeadramonSkullGreymon</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Ice Gotsumon</td>
+<td>Ice Statue</td>
+<td>Coelamon,Devimon,Frifimon,Garurumon,Shellmon,Whamon,Megadramon,MegaSeadramon,SkullGreymon</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Blue Meramon</td>
+<td>Prominence Beam</td>
+<td>Airdramon,Birdamon,Centarumon,Greymon,Kabuterimon,Meramon,Monochromon,Tyrannomon,Digitamamon,HerculesKabuterimon,Phoenixmon</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Blue Meramon</td>
+<td>Ice Statue</td>
+<td>Coelamon,Devimon,Frifimon,Garurumon,Shellmon,Whamon,Megadramon,MegaSeadramon,SkullGreymon</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Hyogamon</td>
+<td>Ice Needle</td>
+<td>Betamon,Penguinmon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Hyogamon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Hyogamon</td>
+<td>Buster Dive</td>
+<td>Patamon,Drimogemon,Garurumon,Leomon,Ogremon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Hyogamon</td>
+<td>Giga Freeze</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Devimon,Frigimon,Garurumon,Seadramon,Whamon,Megadramon,MegaSeadramon,SkullGrymon</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Gururumon</td>
+<td>Aqua Magic</td>
+<td>Betamon,Palmon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Vegiemon,Whamon,Digitamamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Gururumon</td>
+<td>Winter Blast</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Whamon,Megadramon,MegaSeadramonSkullGreymon</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Gururumon</td>
+<td>Ice Statue</td>
+<td>Coelamon,Devimon,Frifimon,Garurumon,Shellmon,Whamon,Megadramon,MegaSeadramon,SkullGreymon</td>
+</tr><tr>
+<td>Ice Sanctuary</td>
+<td>Day/Night</td>
+<td>Gururumon</td>
+<td>Giga Freeze</td>
+<td>Betamon,Penguinmon,Bakemon,Coelamon,Devimon,Frigimon,Garurumon,Seadramon,Whamon,Megadramon,MegaSeadramon,SkullGrymon</td>
+</tr><tr>
+<td>Secret Cave</td>
+<td>Boss</td>
+<td>Ogremon</td>
+<td>Tremar</td>
+<td>Gabumon,Drimogemon,Kokatorimon,Leomon,Monochromon,Ogremon,Tyrannomon,Andromon,Etemon,Mamemon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Secret Cave</td>
+<td>Boss</td>
+<td>Ogremon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Secret Cave</td>
+<td>Boss</td>
+<td>Ogremon</td>
+<td>Magma Bomb</td>
+<td>Augumon,Birdimon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Secret Cave</td>
+<td>Boss</td>
+<td>Waruseadramon</td>
+<td>Aurora Freeze</td>
+<td>Frigimon,Mojyamon,Shellmon,Whamon,MegaSeadramon</td>
+</tr><tr>
+<td>Secret Cave</td>
+<td>Boss</td>
+<td>Waruseadramon</td>
+<td>Thunder Justice</td>
+<td>Bakemon,Devimon,Digitamamon,Etemon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Misty Trees</td>
+<td>Day</td>
+<td>Fugamon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Misty Trees</td>
+<td>Day</td>
+<td>Fugamon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Misty Trees</td>
+<td>Day</td>
+<td>Fugamon</td>
+<td>Static Elect</td>
+<td>Betamon,Elecmon,Kunemon,Airdramon,Angemon,bakemon,Kokatorimon,Leomon,Unimon,Andromon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Misty Trees</td>
+<td>Day</td>
+<td>Mori Shellmon</td>
+<td>Aqua Magic</td>
+<td>Betamon,Palmon,Penguinmon,Bakemon,Coelamon,Frigimon,Garurumon,Mojyamon,Seadramon,Shellmon,Vegiemon,Whamon,Digitamamon,MegaSeadramon,</td>
+</tr><tr>
+<td>Misty Trees</td>
+<td>Day</td>
+<td>Mori Shellmon</td>
+<td>Water Blit</td>
+<td>Betamon,Palmon,Penguinmon,Coelamon,Frigimon,Mojyamon,Seadramon,Shellmon,Vegiemon,Whamon,MegaSeadramon</td>
+</tr><tr>
+<td>Misty Trees</td>
+<td>Day</td>
+<td>Mori Shellmon</td>
+<td>Charm perfume</td>
+<td>Palmon,Penguinmon,Drimogemon,Kabuterimon,Kuwagamon,Ningamon,Seadramon,Shellmon,Vegiemon,Whamon,HerculesKabuterimon,Piximon,Vademon</td>
+</tr><tr>
+<td>Misty Trees</td>
+<td>Day</td>
+<td>Mori Shellmon</td>
+<td>Ice Statue</td>
+<td>Coelamon,Devimon,Frifimon,Garurumon,Shellmon,Whamon,Megadramon,MegaSeadramon,SkullGreymon</td>
+</tr><tr>
+<td>Misty Trees</td>
+<td>Night</td>
+<td>Fugamon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Misty Trees</td>
+<td>Night</td>
+<td>Fugamon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Misty Trees</td>
+<td>Night</td>
+<td>Fugamon</td>
+<td>Static Elect</td>
+<td>Betamon,Elecmon,Kunemon,Airdramon,Angemon,bakemon,Kokatorimon,Leomon,Unimon,Andromon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Toy Town</td>
+<td>Day/Night</td>
+<td>Toy Agumon</td>
+<td>Red Inferno</td>
+<td>Agumon,Birdiamon,Centarumon,Greymon,Kabuterion,Meramon,Monochromon,Ogremon,Tyrannomon,Digitamamon,HerculesKabuterimon,Phoenixmon</td>
+</tr><tr>
+<td>Toy Town</td>
+<td>Day/Night</td>
+<td>Toy Agumon</td>
+<td>Muscle Charge</td>
+<td>Augumon,Elecmon,Centarumon,Devimon,Drimogemon,Frigimon,Greymon,Kuwagamon,Leomon,Etemon,HerculesKabuterimon,Mamemon,MetalMamemon,SkullGreymon</td>
+</tr><tr>
+<td>Toy Town</td>
+<td>Day/Night</td>
+<td>Toy Agumon</td>
+<td>Spit Fire</td>
+<td>Agumon,Biyomon,Airdramon,Birdramon,Centarumon,Garurumon,Greymon,Kabuterimon,Meramon,Monochromon,Ogremon,Seadramon,Tyrannomon,Digitamamon</td>
+</tr><tr>
+<td>Toy Town</td>
+<td>Day/Night</td>
+<td>Toy Agumon</td>
+<td>Fire Tower</td>
+<td>Agumon,Gabumon,Birdramon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Digitamamon,</td>
+</tr><tr>
+<td>Toy Town</td>
+<td>Day/Night</td>
+<td>Tankmon</td>
+<td>Red Inferno</td>
+<td>Agumon,Birdramon,Centarumon,Greymon,Kabuterimon,Meramon,Monochromon,Ogremon,Tyrannomon,Digitamamon,HerculesKabuterimon,Phoenixmon</td>
+</tr><tr>
+<td>Toy Town</td>
+<td>Day/Night</td>
+<td>Tankmon</td>
+<td>Muscle Charge</td>
+<td>Augumon,Elecmon,Centarumon,Devimon,Drimogemon,Frigimon,Greymon,Kuwagamon,Leomon,Etemon,HerculesKabuterimon,Mamemon,MetalMamemon,SkullGreymon</td>
+</tr><tr>
+<td>Toy Town</td>
+<td>Boss</td>
+<td>WaruMonzaemon</td>
+<td>Megalo Spark</td>
+<td>Elecmon,Kunemon,Airdramon,Angemon,Bakemon,Devimon,Greymon,Kokatorimon,Leomon,Unimon,Andromon,Digitamamon,Etemon,Monzaemon,Phoenixmon</td>
+</tr><tr>
+<td>Geko Swamp</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Spinning Shot</td>
+<td>Biyomon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Devimon,Greymon,Kokatorimon,Kuwagamon,Unimon,Digitamamon,Etemon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Geko Swamp</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Danger Sting</td>
+<td>Kunemon,Coelamon,Kabuterimon,Kuwagamon,Ninjamon,Seadramon,Vegiemon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Geko Swamp</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Insect Plague</td>
+<td>Coelmon,Monochromon,Ogremon,HerculesKabuterimon,Piximon</td>
+</tr><tr>
+<td>Geko Swamp</td>
+<td>Day</td>
+<td>Yanmon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Day</td>
+<td>Shima Unimon</td>
+<td>Dynamite Kick</td>
+<td>Elecmon,Gabumon,Patamon,Angemon,Centarumon,Devimon,Drimogemon,Greymon,Kokatorimon,Leomon,Meramon,Mojyamon,Nanimon,Ninjamon,Ogremon,Tyrannomon,Unimon,Etemon,Mamemon,Megadramon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Day</td>
+<td>Shima Unimon</td>
+<td>War Cry</td>
+<td>Gabumon,Patamon,Angemon,Devimon,Drimogemon,Garurumon,Kokatorimon,Leomon,Meramon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Day</td>
+<td>Sharmamon</td>
+<td>Magma Bomb</td>
+<td>Augumon,Birdimon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Day</td>
+<td>Sharmamon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Day</td>
+<td>Sharmamon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Night</td>
+<td>Nise Drimogemon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Night</td>
+<td>Nise Drimogemon</td>
+<td>Dynamite Kick</td>
+<td>Elecmon,Gabumon,Patamon,Angemon,Centarumon,Devimon,Drimogemon,Greymon,Kokatorimon,Leomon,Meramon,Mojyamon,Nanimon,Ninjamon,Ogremon,Tyrannomon,Unimon,Etemon,Mamemon,Megadramon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Night</td>
+<td>Sharmamon</td>
+<td>Magma Bomb</td>
+<td>Augumon,Birdimon,Centarumon,Garurumon,Greymon,Meramon,Ninjamon,Ogremon,Seadramon,Digitamamon,Phoenixmon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Night</td>
+<td>Sharmamon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Night</td>
+<td>Sharmamon</td>
+<td>Megaton Punch</td>
+<td>Gabumon,Devimon,Drimogemon,Garurumon,Leomon,Mojyamon,Monochromon,Nanimon,Orgermon,Tyrannomon,Andromon,Etemon,HerculesKabuterimon,Mamemon,Megadramon,MetalGreymon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Boss</td>
+<td>Patamon</td>
+<td>Wind Cutter</td>
+<td>Biyomon,Elecmon,Patamon,Airdramon,Angemon,Bakemon,Birdramon,Kabuterimon,Kokatorimon,Kuwagamon,Unimon,MegaSeadramon,Phoenixmon,Piximon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Boss</td>
+<td>Patamon</td>
+<td>Sonic Jab</td>
+<td>Agumon,Gabumon,Patamon,Devimon,Drimogemon,Frigimon,Kuwagamon,Leomon,Ninjamon,Ogremon,Tyrannomon,Etemon,Mamemon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Gear Svannah</td>
+<td>Boss</td>
+<td>Patamon</td>
+<td>Dynamite Kick</td>
+<td>Elecmon,Gabumon,Patamon,Angemon,Centarumon,Devimon,Drimogemon,Greymon,Kokatorimon,Leomon,Meramon,Mojyamon,Nanimon,Ninjamon,Ogremon,Tyrannomon,Unimon,Etemon,Mamemon,Megadramon,MetalMamemon,Monzaemon,SkullGreymon</td>
+</tr><tr>
+<td>Trash Mountain</td>
+<td>Day/Night</td>
+<td>Geremon</td>
+<td>Horizontal Kick</td>
+<td>Nanimon,Numemon,Sukamon,Etemon</td>
+</tr></tbody></table>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('table.display').DataTable({
+                "pageLength": 25
+            });
+        });
+    </script>
+</body>
+</html>

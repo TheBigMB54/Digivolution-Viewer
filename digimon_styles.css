@@ -87,3 +87,24 @@
       font-style: italic;
       margin-left: 6px;
     }
+    table.display {
+            width: 100%;
+            border-collapse: collapse;
+            
+        }
+        table.display th, table.display td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+            color:Black;
+            font-size: 13pt;
+        }
+        table.display thead th {
+            background-color: #f2f2f2;
+            
+        }
+        tr:nth-child(even) {
+            background-color: #564d80;
+            
+        }
+        
